@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0px;
+        padding:0px;}
+
+.uk ul{
+    background-color: rgba(245, 222, 179, 0.377);
+    height: 70px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.uk ul li{
+    font-size: 25px;
+   margin: 28px;
+}
+
+.uk ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.uk ul li a:hover{
+    background-color: white;
+    border-radius: 10px;
+  
+}
+
+
+#search{
+    margin-left: 1%;
+}
+
+#op{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;   
+}
+
+
+
+
+
+#mk{height: fit-content;
+display: grid;
+grid-template-columns: 2fr 2fr 2fr 2fr ;
+grid-template-rows: 1fr 1fr  ;
+grid-gap: 3rem;
+
+
+}
+
+#mk::before{
+content: '';
+background:url(c12.jpg) no-repeat center/ cover;
+position: absolute;
+height: 58%;
+width: 100%;
+top: 0px;
+z-index: -1;
+box-shadow: 2px 2px 2px 2px gray, -2px -2px 2px 2px;
+
+
+}
+
+
+
+.rt{
+
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#km{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.9%;
+}
+
+#km::before{
+content: '';
+background: url(bg1.jpg);
+position: absolute;
+height: 6%;
+width:100%;
+z-index: -1;
+
+}
+
+.gs{
+    height: 50px;
+    width: 700px;
+}
+
+.container1{
+   
+    height:auto;
+    width: 100%;
+    margin-top: 0.8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card1{
+    height: auto;
+    width: 90%;
+    border-radius: 20px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: moves;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    position: relative;
+}
+
+@keyframes moves{
+
+
+    0%{background: url(https://hips.hearstapps.com/hmg-prod/images/index-topcoat-651c7bd21532e.jpg) no-repeat center/ cover;}
+
+    100%{background: url(pc6.jpg)  no-repeat center/ cover; }
+
+}
+
+
+
+
+
+.container2{
+    height: auto;
+    width: 100%;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2{
+    height: 270px;
+    width: 220px;
+    margin: 3%;
+    background-image: linear-gradient( 130deg, skyblue , pink, orange, purple);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.gcard{
+
+    height: 320px;
+    width: 235px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.im{
+
+    height: 258px;
+    width: 208px;
+    border-radius: 10px;
+}
+
+
+.lok{ color: white;
+    font-size: 40px;
+    margin-top: 450px;
+    margin-left: 950px;
+    }
+
+
+.search1{
+    height: auto;
+    width: 90%;
+    margin-left: 93px;
+    margin-top: 1%;
+    border-radius: 20px;
+    
+    
+}
+
+#s1{
+    height: 610px;
+    width: 90%;
+    border-radius: 20px;
+    background: url("nsi2") no-repeat center / cover;
+    background-attachment: fixed;
+}
+ 
+
+
+#s2{
+    height: 610px;
+    width: 90%;
+    border-radius: 20px;
+    background: url("nsi4") no-repeat center / cover;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+
+<nav class="uk">
+    <ul>
+        <div id="logo"></div>
+        <li><a href="">Home</a></li>
+        <li><a href="">Mens</a></li>
+        <li><a href="">Womens</a></li>
+        <li><a href="">Kids</a></li>
+        <div id="search"><input type="search" name="search" id="op" placeholder=" Search For More..."></div>
+    </ul>
+</nav>
+   
+
+<div id="mk">
+
+<div class="rt"><img src="n1.jpg" class="tb" alt=""> <b><i>Shirt</i></b></div>
+<div class="rt"><img src="t1.jpg" class="tb" alt=""> <b><i>T-shirt</i></b></div>
+<div class="rt"><img src="s1.jpg" class="tb" alt=""> <b><i> Shoes</i></b></div>
+<div class="rt"><img src="w4.jpg" class="tb" alt=""><b><i> Watches </i></b></div>
+<div class="rt"><img src="wd5.jpg" class="tb" alt=""><b><i> Dress </i></b></div>
+<div class="rt"><img src="ws1.jpg" class="tb" alt=""><b><i> Sadis </i></b></div>
+<div class="rt"><img src="wh1.jpg" class="tb" alt=""><b><i> High hills </i></b></div>
+<div class="rt"><img src="ww1.jpg" class="tb" alt=""><b><i>  Watches </i></b></div>
+
+</div>
+
+<div id="km">
+
+    <div class="gs"><h1><b>Get 50% Of & Buy 1 Get 1 Free</b></h1></div>
+ 
+</div>
+
+
+
+<div class="container1">
+
+    <div class="card1"><h1 class="lok"><b>Premimum  Quality</b></h1> </div>
+
+</div>
+
+
+<div id="s1" class="search1"></div>
+<div id="s2" class="search1"></div>
+
+
+
+ 
+ </div>
+
+
+<div class="container2">
+
+ <div class="gcard"> <div class="card2">  <img src="si1.jpg" class="im" alt="">   </div> <h3><b> GET 50% 0F</b></h3> </div>
+ <div class="gcard">  <div class="card2"> <img src="si2.jpg" class="im" alt="">    </div> <h3><b> GET 50% 0F</b></h3> </div>
+ <div class="gcard">   <div class="card2"> <img src="si12.jpg" class="im" alt="">   </div> <h3><b> GET 50% 0F</b></h3> </div>
+ <div class="gcard">  <div class="card2"> <img src="si17" class="im" alt="">       </div>  <h3><b> GET 50% 0F</b></h3> </div>
+ <div class="gcard">  <div class="card2"> <img src="si20" class="im" alt="">       </div>  <h3><b> GET 50% 0F</b></h3> </div>
+
+</div>
+
+
+
+<div class="container2">
+
+    <div class="gcard">  <div class="card2"> <img src="si8" class="im" alt="">        </div> <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard">  <div class="card2"> <img src="si10" class="im" alt="">       </div> <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard">  <div class="card2"> <img src="si13.jpg" class="im" alt="">   </div>  <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard">  <div class="card2"> <img src="si16.jpg" class="im" alt="">   </div>  <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard">  <div class="card2"> <img src="si22" class="im" alt="">       </div>  <h3><b> GET 50% 0F</b></h3> </div>
+
+</div>
+
+<div class="container2">
+
+    <div class="gcard"> <div class="card2"> <img src="si3.jpg" class="im" alt="">   </div>  <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard"> <div class="card2"> <img src="si7.jpg" class="im" alt="">   </div>  <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard"> <div class="card2"> <img src="si4.jpg" class="im" alt="">   </div>  <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard"> <div class="card2"> <img src="si18" class="im" alt="">      </div>  <h3><b> GET 50% 0F</b></h3> </div>
+    <div class="gcard"> <div class="card2"> <img src="si19.jpg" class="im" alt="">  </div>  <h3><b> GET 50% 0F</b></h3> </div>
+
+</div>
+
+<div class="container2">
+
+     <div class="gcard">  <div class="card2"> <img src="si27.jpg" class="im" alt=""></div>  <h3><b> GET 50% 0F</b></h3> </div>
+     <div class="gcard">  <div class="card2"> <img src="si30.jpg" class="im" alt=""></div>  <h3><b> GET 50% 0F</b></h3> </div>
+     <div class="gcard">  <div class="card2"> <img src="si40.jpg" class="im" alt=""></div>  <h3><b> GET 50% 0F</b></h3> </div>
+     <div class="gcard">  <div class="card2"> <img src="si40.jpg" class="im" alt=""></div>  <h3><b> GET 50% 0F</b></h3> </div>
+     <div class="gcard">  <div class="card2"> <img src="si26" class="im" alt=""></div>      <h3><b> GET 50% 0F</b></h3> </div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
